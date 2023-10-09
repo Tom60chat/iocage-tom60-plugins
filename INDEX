@@ -1,0 +1,13 @@
+{
+    "nextcloud": {
+        "MANIFEST": "nextcloud.json",
+        "name": "Nextcloud",
+        "icon": "https://www.trueos.org/iocage-icons/nextcloud.png",
+        "description": "Suite of client-server software for creating and using file hosting services.",
+        "official": true,
+        "primary_pkg": "nextcloud-php82",
+        "category": "collaboration",
+        "maintainer": "Tom60chat <contact.tom60@proton.me>",
+        "homepage": "https://nextcloud.com/"
+    }
+}
