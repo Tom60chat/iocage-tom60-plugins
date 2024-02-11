@@ -1,11 +1,10 @@
 {
     "name": "Nextcloud",
     "plugin_schema": "2",
-    "release": "12.2-RELEASE",
-    "artifact": "https://github.com/freenas/iocage-plugin-nextcloud.git",
+    "release": "13.1-RELEASE",
+    "artifact": "https://github.com/Tom60chat/iocage-plugin-nextcloud.git",
     "properties": {
-        "nat": 1,
-        "nat_forwards": "tcp(80:8282),tcp(443:8283)"
+        "dhcp": 1
     },
     "pkgs": [
         "ffmpeg",
