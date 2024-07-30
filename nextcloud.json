@@ -16,8 +16,8 @@
     "nginx",
     "mariadb1011-server",
     "redis",
-    "py39-fail2ban",
-    "py39-certbot"
+    "security/py-fail2ban",
+    "security/py-certbot"
   ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
